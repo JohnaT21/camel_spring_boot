@@ -17,15 +17,11 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-actuator</artifactId>-->
+<!--		</dependency>-->
 		<!-- JAXB API -->
-		<dependency>
-			<groupId>jakarta.xml.bind</groupId>
-			<artifactId>jakarta.xml.bind-api</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.glassfish.jaxb</groupId>
 			<artifactId>jaxb-runtime</artifactId>
@@ -39,7 +35,21 @@
 			<artifactId>camel-spring-boot-starter</artifactId>
 			<version>4.0.1</version>
 		</dependency>
-
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>4.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-endpointdsl</artifactId>
+			<version>3.18.3</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -61,23 +71,107 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>jaxb2-maven-plugin</artifactId>
-				<version>2.5.0</version>
+				<groupId>org.jvnet.jaxb2.maven2</groupId>
+				<artifactId>maven-jaxb2-plugin</artifactId>
+				<version>0.15.3</version>
 				<executions>
+					<!--					<execution>-->
+					<!--						<id>esb</id>-->
+
+					<!--						<goals>-->
+					<!--							<goal>generate</goal>-->
+					<!--						</goals>-->
+
+					<!--						<configuration>-->
+					<!--							<schemaDirectory>src/main/resources/xsd</schemaDirectory>-->
+					<!--							<schemaIncludes>esb.xsd</schemaIncludes>-->
+					<!--							<cleanPackageDirectories>false</cleanPackageDirectories>-->
+					<!--							<generatePackage>com.example.camelone.schemas.esb</generatePackage>-->
+					<!--							<generateDirectory>${project.basedir}/src/main/java</generateDirectory>-->
+					<!--							<readOnly>false</readOnly>-->
+					<!--							<extension>true</extension>-->
+					<!--							<strict>true</strict>-->
+					<!--							<writeCode>true</writeCode>-->
+					<!--							<verbose>true</verbose>-->
+
+					<!--							<forceRegenerate>true</forceRegenerate>-->
+					<!--							<removeOldOutput>true</removeOldOutput>-->
+					<!--						</configuration>-->
+
+					<!--					</execution>-->
 					<execution>
+						<id>twinfield</id>
+
 						<goals>
-							<goal>xjc</goal>
+							<goal>generate</goal>
 						</goals>
+
+						<configuration>
+							<schemaDirectory>src/main/resources/xsd</schemaDirectory>
+							<schemaIncludes>twinfield.xsd</schemaIncludes>
+							<cleanPackageDirectories>false</cleanPackageDirectories>
+							<generatePackage>com.example.camelone.schema</generatePackage>
+							<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
+							<readOnly>false</readOnly>
+							<extension>true</extension>
+							<strict>true</strict>
+							<writeCode>true</writeCode>
+							<verbose>true</verbose>
+
+							<forceRegenerate>false</forceRegenerate>
+							<removeOldOutput>false</removeOldOutput>
+						</configuration>
+
 					</execution>
+					<!--					<execution>-->
+					<!--						<id>exact</id>-->
+					<!--						<goals>-->
+					<!--							<goal>generate</goal>-->
+					<!--						</goals>-->
+
+					<!--						<configuration>-->
+					<!--							<schemaDirectory>src/main/resources/xml</schemaDirectory>-->
+					<!--							<schemaIncludes>exact.xsd</schemaIncludes>-->
+					<!--							<cleanPackageDirectories>false</cleanPackageDirectories>-->
+					<!--							<generatePackage>com.example.camelone.schemas.exact</generatePackage>-->
+					<!--							<generateDirectory>${project.basedir}/src/main/java</generateDirectory>-->
+					<!--							<readOnly>false</readOnly>-->
+					<!--							<extension>true</extension>-->
+					<!--							<strict>true</strict>-->
+					<!--							<writeCode>true</writeCode>-->
+					<!--							<verbose>true</verbose>-->
+
+					<!--							<forceRegenerate>true</forceRegenerate>-->
+					<!--							<removeOldOutput>true</removeOldOutput>-->
+					<!--						</configuration>-->
+
+					<!--					</execution>-->
+					<!--					<execution>-->
+					<!--						<id>person</id>-->
+					<!--						<goals>-->
+					<!--							<goal>generate</goal>-->
+					<!--						</goals>-->
+
+					<!--						<configuration>-->
+					<!--							<schemaDirectory>src/main/resources/xsd</schemaDirectory>-->
+					<!--							<schemaIncludes>person.xsd</schemaIncludes>-->
+					<!--							<cleanPackageDirectories>false</cleanPackageDirectories>-->
+					<!--							<generatePackage>com.example.camelone.schemas.person</generatePackage>-->
+					<!--							<generateDirectory>${project.basedir}/src/main/java</generateDirectory>-->
+					<!--							<readOnly>false</readOnly>-->
+					<!--							<extension>true</extension>-->
+					<!--							<strict>true</strict>-->
+					<!--							<writeCode>true</writeCode>-->
+					<!--							<verbose>true</verbose>-->
+
+					<!--							<forceRegenerate>true</forceRegenerate>-->
+					<!--							<removeOldOutput>true</removeOldOutput>-->
+					<!--						</configuration>-->
+
+					<!--					</execution>-->
 				</executions>
-				<configuration>
-					<sources>
-					<source>src/main/resources/xsd</source>
-					</sources>
-					<packageName></packageName>
-				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
 

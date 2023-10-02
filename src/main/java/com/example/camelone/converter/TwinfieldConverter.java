@@ -8,21 +8,16 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-
 
 @Component
-public class ExactConverter extends RouteBuilder {
+public class TwinFieldConverter extends RouteBuilder {
 
-    public JaxbDataFormat jaxbFormat(Class<ObjectFa> clazz) throws  Exception {
-        try {
-            return new JaxbDataFormat(JAXBContext.newInstance(clazz));
-        } catch (JAXBException e) {
-            throw new RuntimeException(e);
-        }
+    public JaxbDataFormat jaxbFormat(String contextPath) throws  Exception {
+        JaxbDataFormat jaxbDataFormat = new JaxbDataFormat();
+        jaxbDataFormat.setContextPath(contextPath);
+        return jaxbDataFormat;
     }
-    private Logger logger = LoggerFactory.getLogger(ExactConverter.class);
+    private Logger logger = LoggerFactory.getLogger(TwinFieldConverter.class);
 
     @Override
     public void configure() throws Exception{
@@ -31,7 +26,7 @@ public class ExactConverter extends RouteBuilder {
             logger.info("from the converter");
             from("file:C:\\Users\\jenye\\Desktop\\camelProject\\camel_spring_boot\\src\\main\\resources\\xml/?fileName=twinfield.xml&noop=true")
                     .log("file reading:\n${body}")
-                    .unmarshal(jaxbFormat(ObjectFactory.class))
+                    .unmarshal(jaxbFormat("com.example.camelone.schema"))
                     .process(exchange -> {
                         logger.info(exchange.getMessage().toString());
                     })
