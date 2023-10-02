@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employee>
+    <firstName>Tanmay</firstName>
+    <LastName>Patil</LastName>
+    <ContactNo>1234567890</ContactNo>
+    <Email>tanmaypatil@xyz.com</Email>
+</employee>

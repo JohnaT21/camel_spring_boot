@@ -1,0 +1,2020 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Exact Online
+http://www.exact.com
+Created: 06/16/2022 11:20:45
+-->
+
+
+<auditfile
+		xmlns="http://www.auditfiles.nl/XAF/3.2"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.auditfiles.nl/XAF/3.2 ">
+	<header>
+		<fiscalYear>2015</fiscalYear>
+		<startDate>2015-01-01</startDate>
+		<endDate>2015-12-31</endDate>
+		<curCode>EUR</curCode>
+		<dateCreated>2022-06-16</dateCreated>
+		<softwareDesc>Exact Online</softwareDesc>
+	</header>
+	<company>
+		<companyIdent>1</companyIdent>
+		<cid>jjk</cid>
+		<companyName>Voorbeeldadministratie Exact Online</companyName>
+		<taxRegistrationCountry>NL</taxRegistrationCountry>
+		<taxRegIdent />
+		<streetAddress>
+			<country>NL</country>
+		</streetAddress>
+		<postalAddress>
+			<country>NL</country>
+		</postalAddress>
+		<customersSuppliers>
+			<customerSupplier>
+				<custSupID>0099</custSupID>
+				<custSupName>Tony Gambino Bedrijfsdiensten BV</custSupName>
+				<contact>Tony Gambino</contact>
+				<telephone>015 711 5000</telephone>
+				<eMail>info@tgbedrijfsdiensten.nl</eMail>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>S</custSupTp>
+				<streetAddress>
+					<streetname>Kolk 32</streetname>
+					<city>Delft</city>
+					<postalCode>2611 KD</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2030</custSupID>
+				<custSupName>Ski &amp; Go B.V.</custSupName>
+				<contact>Marlies Been</contact>
+				<telephone>015  7115000</telephone>
+				<commerceNr>27223120</commerceNr>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Molengraaffsingel 33</streetname>
+					<city>DELFT</city>
+					<postalCode>2629 JD</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2029</custSupID>
+				<custSupName>Sportshop Leiden</custSupName>
+				<telephone>071  7110335</telephone>
+				<commerceNr>55888720</commerceNr>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Haagweg 4 F 12</streetname>
+					<city>LEIDEN</city>
+					<postalCode>2311 AA</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2027</custSupID>
+				<custSupName>Sportshop Dokkum</custSupName>
+				<telephone>085  4018377</telephone>
+				<website>www.bouw7.nl</website>
+				<commerceNr>73715905</commerceNr>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Koophandel 4 C</streetname>
+					<city>DOKKUM</city>
+					<postalCode>9101 WZ</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2026</custSupID>
+				<custSupName>Sportshop Delft</custSupName>
+				<telephone>015  7115000</telephone>
+				<website>www.exact.com</website>
+				<commerceNr>27228442</commerceNr>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Molengraaffsingel 33</streetname>
+					<city>DELFT</city>
+					<postalCode>2629 JD</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2024</custSupID>
+				<custSupName>Houthandel Vandiepen Bvba</custSupName>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>S</custSupTp>
+				<streetAddress>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2021</custSupID>
+				<custSupName>Hotel De Grote Valk</custSupName>
+				<contact>Arend Slecht</contact>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Princenhagelaan 51</streetname>
+					<city>BREDA</city>
+					<postalCode>4813 DA</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2019</custSupID> // Exact
+				<custSuperID>2019</custSuperID> // twinfiled
+
+				a b	c
+
+				<custSupName>Mega Food Plaza</custSupName>
+				<contact>Ronny Kanakamedala</contact>
+				<telephone>+297 522-3000</telephone>
+				<taxRegistrationCountry>AW</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Bubali 145-A</streetname>
+					<city>Noord</city>
+					<postalCode>0000</postalCode>
+					<country>AW</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2018</custSupID>
+				<custSupName>Uniek Supermarkten BVBA</custSupName>
+				<contact>Diederik Vandenbuitelaer</contact>
+				<telephone>+32 12 23 49 04</telephone>
+				<website>www.unieksuper.be</website>
+				<taxRegistrationCountry>BE</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Sint-Maartenstraat 138</streetname>
+					<city>Genoelselderen</city>
+					<postalCode>3770</postalCode>
+					<country>BE</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>1056</custSupID>
+				<custSupName>NV IJzergieterij Vulcaansoord</custSupName>
+				<contact>Baron van Nagell</contact>
+				<telephone>0315 345626</telephone>
+				<website>www.vulcaansoord.nl</website>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Oude IJssel 50</streetname>
+					<city>Terborg</city>
+					<postalCode>7061 AC</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>1041</custSupID>
+				<custSupName>Strokartonfabriek Beukema BV</custSupName>
+				<contact>Jacob Beukema</contact>
+				<telephone>0598 396532</telephone>
+				<website>www.hooitesbeukema.nl</website>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Kalkwijksterdiep 33</streetname>
+					<city>Hoogezand</city>
+					<postalCode>9601 BM</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>1033</custSupID>
+				<custSupName>Koninklijke Griesmeelunie NV</custSupName>
+				<contact>Molly Geertsema</contact>
+				<telephone>0113 356000</telephone>
+				<website>www.griesmeelunie.nl</website>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Zeedijk 32</streetname>
+					<city>Borssele</city>
+					<postalCode>4454 PM</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>1006</custSupID>
+				<custSupName>Vermicellifabriek Jos Bauduin BV</custSupName>
+				<contact>Jos Bauduin</contact>
+				<telephone>043 3212751</telephone>
+				<website>www.bauduin.nl</website>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Grote Looiersstraat 22</streetname>
+					<city>Maastricht</city>
+					<postalCode>6211 JJ</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0116</custSupID>
+				<custSupName>Aadolf Hämäläinen Oy</custSupName>
+				<contact>Pehr Evind Svinhufvud</contact>
+				<telephone>+358 20 7795500</telephone>
+				<eMail>info@aadolf.nl</eMail>
+				<taxRegistrationCountry>FI</taxRegistrationCountry>
+				<custSupTp>S</custSupTp>
+				<streetAddress>
+					<streetname>Käsivarrentie 14663</streetname>
+					<city>Äteritsiputeritsipuolilautatsi</city>
+					<postalCode>99400</postalCode>
+					<country>FI</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0112</custSupID>
+				<custSupName>Kentetsu Nichimura Benelux BV</custSupName>
+				<contact>Ichiro Yoshimatsu</contact>
+				<telephone>+32 4 2408111</telephone>
+				<eMail>info@knbenelux.nl</eMail>
+				<taxRegistrationCountry>BE</taxRegistrationCountry>
+				<custSupTp>B</custSupTp>
+				<streetAddress>
+					<streetname>Voie de Liege 33</streetname>
+					<city>Herstal</city>
+					<postalCode>4040</postalCode>
+					<country>BE</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0109</custSupID>
+				<custSupName>Multi Supply Shops BV</custSupName>
+				<contact>Rik Ploeg</contact>
+				<telephone>0222 390112</telephone>
+				<eMail>info@msshops.nl</eMail>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>B</custSupTp>
+				<streetAddress>
+					<streetname>Industrieterrein de Krim 16</streetname>
+					<city>De Cocksdorp, Texel</city>
+					<postalCode>1795 JV</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0078</custSupID>
+				<custSupName>Koninklijke Kunststof Bedrijven NV</custSupName>
+				<contact>Theo Keuchenius</contact>
+				<telephone>010 6509120</telephone>
+				<eMail>info@kkbedrijven.nl</eMail>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>B</custSupTp>
+				<streetAddress>
+					<streetname>Tiengemeten Haven 1</streetname>
+					<city>Zuid-Beijerland</city>
+					<postalCode>3284 BE</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0076</custSupID>
+				<custSupName>Gupta Steel IJmuiden B.V.</custSupName>
+				<contact>Janus baron van Verschuer</contact>
+				<telephone>0251 499111</telephone>
+				<website>www.guptasteel.nl</website>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>B</custSupTp>
+				<streetAddress>
+					<streetname>Wenckebachstraat 1</streetname>
+					<city>Velsen-Noord</city>
+					<postalCode>1951 GD</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0067</custSupID>
+				<custSupName>Verdaasdonk Verpakking BV</custSupName>
+				<contact>Corry Verdaasdonk</contact>
+				<telephone>013 5074000</telephone>
+				<eMail>info@vverpakking.nl</eMail>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>S</custSupTp>
+				<streetAddress>
+					<streetname>Bredaseweg 4</streetname>
+					<city>Baarle Nassau</city>
+					<postalCode>5111 GC</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0037</custSupID>
+				<custSupName>NV Steenwijker Houthandel "De Eikel"</custSupName>
+				<contact>Jan Wicherson</contact>
+				<telephone>0521 512323</telephone>
+				<eMail>info@wicherson.nl</eMail>
+				<website>www.wicherson.nl</website>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>B</custSupTp>
+				<streetAddress>
+					<streetname>Steenwijkerdiep 71</streetname>
+					<city>Steenwijk</city>
+					<postalCode>8331</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0016</custSupID>
+				<custSupName>Productie Services BV</custSupName>
+				<contact>Chiel Bonekamp</contact>
+				<telephone>0513 30917</telephone>
+				<eMail>info@productieservices.nl</eMail>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>S</custSupTp>
+				<streetAddress>
+					<streetname>Postweg 1</streetname>
+					<city>Rottumeroog</city>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0012</custSupID>
+				<custSupName>Van der Heem BV</custSupName>
+				<contact>Ir. Bloemsma</contact>
+				<telephone>070 3191695</telephone>
+				<eMail>info@vanderheem.nl</eMail>
+				<website>www.vanderheem.nl</website>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>S</custSupTp>
+				<streetAddress>
+					<streetname>Neherkade 13</streetname>
+					<city>'s-Gravenhage</city>
+					<postalCode>2521 RV</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0009</custSupID>
+				<custSupName>Globex Nederland BV</custSupName>
+				<contact>Hank Scorpio</contact>
+				<telephone>0114 633110</telephone>
+				<eMail>info@globex.nl</eMail>
+				<website>www.globex.nl</website>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>S</custSupTp>
+				<streetAddress>
+					<streetname>Slotweg 4</streetname>
+					<city>Saeftinghe</city>
+					<postalCode>4568 PW</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0006</custSupID>
+				<custSupName>Kantoorboekhandel Neuteboom en Zonen</custSupName>
+				<contact>Stef Neuteboom</contact>
+				<telephone>015 7234090</telephone>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>B</custSupTp>
+				<streetAddress>
+					<streetname>Choorstraat 66</streetname>
+					<city>Delft</city>
+					<postalCode>2611 JD</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>0000</custSupID>
+				<custSupName>Belastingdienst</custSupName>
+				<contact>Jeroen Dijsselbloem</contact>
+				<telephone>0800 0543</telephone>
+				<eMail>info@belastingdienst.nl</eMail>
+				<website>www.belastingdienst.nl</website>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>S</custSupTp>
+				<streetAddress>
+					<streetname>John F. Kennedylaan 8</streetname>
+					<city>Apeldoorn</city>
+					<postalCode>7314 PS</postalCode>
+					<country>NL</country>
+				</streetAddress>
+				<bankAccount>
+					<bankAccNr>2445588</bankAccNr>
+					<bankIdCd>INGBNL2A</bankIdCd>
+				</bankAccount>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2028</custSupID>
+				<custSupName>Sportshop Amsterdam</custSupName>
+				<contact>Femke Jansen-De Vries</contact>
+				<telephone>020  8884207</telephone>
+				<website>www.srxp.com</website>
+				<commerceNr>51400952</commerceNr>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Science Park 402</streetname>
+					<city>AMSTERDAM</city>
+					<postalCode>1098 XH</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>000000</custSupID>
+				<custSupName>Voorbeeldadministratie Exact Online</custSupName>
+				<telephone>0639662309</telephone>
+				<eMail>adam_astamirov@hotmail.com</eMail>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>O</custSupTp>
+				<streetAddress>
+					<country>NL</country>
+				</streetAddress>
+				<bankAccount>
+					<bankAccNr>0484987321</bankAccNr>
+					<bankIdCd>ABNANL2A</bankIdCd>
+				</bankAccount>
+				<bankAccount>
+					<bankAccNr>100</bankAccNr>
+				</bankAccount>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2033</custSupID>
+				<custSupName>Megasport XL</custSupName>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Wiebachstraat 754</streetname>
+					<city>KERKRADE</city>
+					<postalCode>6366 NG</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2031</custSupID>
+				<custSupName>Vintage Supplies</custSupName>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>S</custSupTp>
+				<streetAddress>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2025</custSupID>
+				<custSupName>Sportshop Netherlands B.V.</custSupName>
+				<telephone>020  5659120</telephone>
+				<commerceNr>34306685</commerceNr>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Hoogoorddreef 15 Gebouw Ameri</streetname>
+					<city>AMSTERDAM</city>
+					<postalCode>1101 BA</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2022</custSupID>
+				<custSupName>Restaurant De Valkenier</custSupName>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>C</custSupTp>
+				<streetAddress>
+					<streetname>Schoolstraat 24</streetname>
+					<city>BREDA</city>
+					<postalCode>4811 WB</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2020</custSupID>
+				<custSupName>Domino's Pizza Delft</custSupName>
+				<contact>Jan de Boer</contact>
+				<telephone>015  2148124</telephone>
+				<commerceNr>27284694</commerceNr>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>B</custSupTp>
+				<streetAddress>
+					<streetname>Binnenwatersloot 12 A</streetname>
+					<city>Delft</city>
+					<postalCode>2625</postalCode>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+			<customerSupplier>
+				<custSupID>2032</custSupID>
+				<custSupName>A. van Herd</custSupName>
+				<taxRegistrationCountry>NL</taxRegistrationCountry>
+				<custSupTp>O</custSupTp>
+				<streetAddress>
+					<country>NL</country>
+				</streetAddress>
+			</customerSupplier>
+		</customersSuppliers>
+		<generalLedger>
+			<ledgerAccount>
+				<accID>01110</accID>
+				<accDesc>Gebouwen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.01.02</leadCode>
+				<leadDescription>Materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>01120</accID>
+				<accDesc>Afschrijving gebouwen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.01.02</leadCode>
+				<leadDescription>Materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>01410</accID>
+				<accDesc>Machines</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.01.02</leadCode>
+				<leadDescription>Materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>01420</accID>
+				<accDesc>Afschrijving machines</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.01.02</leadCode>
+				<leadDescription>Materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>01510</accID>
+				<accDesc>Inventaris</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.01.02</leadCode>
+				<leadDescription>Materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>01520</accID>
+				<accDesc>Afschrijving inventaris</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.01.02</leadCode>
+				<leadDescription>Materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>01610</accID>
+				<accDesc>Transportmiddelen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.01.02</leadCode>
+				<leadDescription>Materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>01620</accID>
+				<accDesc>Afschrijving transportmiddelen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.01.02</leadCode>
+				<leadDescription>Materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>05010</accID>
+				<accDesc>Gewonen aandelen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.07.01</leadCode>
+				<leadDescription>Gestort en opgvraagd kapitaal</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>05410</accID>
+				<accDesc>Positieve herwaarderingen activa</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.07.03</leadCode>
+				<leadDescription>Herwaarderingsreserve</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>05710</accID>
+				<accDesc>Overige reserves</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.07.06</leadCode>
+				<leadDescription>Overige reserves</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>05750</accID>
+				<accDesc>Onverdeelde winst</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.07.07</leadCode>
+				<leadDescription>Onverdeelde winst</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>05760</accID>
+				<accDesc>Winstsaldo lopend boekjaar</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.07.08</leadCode>
+				<leadDescription>Resultaat van het boekjaar</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>10010</accID>
+				<accDesc>Kas</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.06</leadCode>
+				<leadDescription>Liquide middelen</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>10210</accID>
+				<accDesc>ABN AMRO NL29ABNA0151022133</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.06</leadCode>
+				<leadDescription>Liquide middelen</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>12010</accID>
+				<accDesc>Debiteuren</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.04.01</leadCode>
+				<leadDescription>Handelsdebiteuren</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>12511</accID>
+				<accDesc>Te vorderen omzetbelasting</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.04.04</leadCode>
+				<leadDescription>Overige vorderingen</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>13110</accID>
+				<accDesc>Vooruitontvangen bedragen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.04.05</leadCode>
+				<leadDescription>Overlopende activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>13120</accID>
+				<accDesc>Statiegeld</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>13122</accID>
+				<accDesc>Social Responsibility</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>14200</accID>
+				<accDesc>Uitgestelde kosten</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.04.05</leadCode>
+				<leadDescription>Overlopende activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>1600</accID>
+				<accDesc>Crediteuren</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>16010</accID>
+				<accDesc>Crediteuren</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.11.05</leadCode>
+				<leadDescription>Schulden aan leveranciers en handelskredieten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>1670</accID>
+				<accDesc>Medewerkersbetalingen</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>1700</accID>
+				<accDesc>Af te dragen loonheffing</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>17020</accID>
+				<accDesc>Te betalen lonen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.12.09</leadCode>
+				<leadDescription>Overige schulden</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>17050</accID>
+				<accDesc>Te betalen sociale lasten</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.12.07.3</leadCode>
+				<leadDescription>Loonheffing en sociale lasten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>17060</accID>
+				<accDesc>Te betalen pensioenpremie</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.12.09</leadCode>
+				<leadDescription>Overige schulden</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>1732</accID>
+				<accDesc>Te vorderen loonheffingen</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>1740</accID>
+				<accDesc>Af te dragen sociale premies werknemer</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>1741</accID>
+				<accDesc>Af te dragen overige werknemerspremies</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>1745</accID>
+				<accDesc>Af te dragen sociale premies werkgever</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>1746</accID>
+				<accDesc>Af te dragen overige werkgeverpremies</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>1780</accID>
+				<accDesc>Te betalen reservering vakantiegeld</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>1781</accID>
+				<accDesc>Te betalen reservering werkgeverskosten</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>18200</accID>
+				<accDesc>Te betalen omzetbelasting</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.12.07.1</leadCode>
+				<leadDescription>Omzetbelasting</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>18340</accID>
+				<accDesc>Te betalen loonheffing</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.12.07.3</leadCode>
+				<leadDescription>Loonheffing en sociale lasten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>19010</accID>
+				<accDesc>Nog te ontvangen grondstoffen/facturen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.12.10</leadCode>
+				<leadDescription>Overlopende passiva</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>19110</accID>
+				<accDesc>Nog te betalen bedragen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.12.10</leadCode>
+				<leadDescription>Overlopende passiva</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>19200</accID>
+				<accDesc>Uitgestelde omzet</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.12.09</leadCode>
+				<leadDescription>Overige schulden</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>20100</accID>
+				<accDesc>Tegenrekening openingsbalans</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.04.05</leadCode>
+				<leadDescription>Overlopende activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>20510</accID>
+				<accDesc>Tussenrekening lonen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.12.09</leadCode>
+				<leadDescription>Overige schulden</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>20600</accID>
+				<accDesc>Niet toegewezen bedragen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.04.05</leadCode>
+				<leadDescription>Overlopende activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>21100</accID>
+				<accDesc>Tussenrekening goederen onderweg</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.04</leadCode>
+				<leadDescription>Vooruitbetalingen op voorraden</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>22100</accID>
+				<accDesc>Incasso batches af te letteren</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.04.05</leadCode>
+				<leadDescription>Overlopende activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>2700</accID>
+				<accDesc>Tussenrekening Lonen</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>31010</accID>
+				<accDesc>Voorraad gereed product</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.01</leadCode>
+				<leadDescription>Handelsgoederen en gereed product</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>31011</accID>
+				<accDesc>Voorraad afgekeurd product</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.01</leadCode>
+				<leadDescription>Handelsgoederen en gereed product</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>31013</accID>
+				<accDesc>Voorraad bijprodukten</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.01</leadCode>
+				<leadDescription>Handelsgoederen en gereed product</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>32010</accID>
+				<accDesc>Voorraad productiemateriaal</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.02</leadCode>
+				<leadDescription>Grondstoffen en halffabrikaten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>32011</accID>
+				<accDesc>Voorraad gereedschappen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.02</leadCode>
+				<leadDescription>Grondstoffen en halffabrikaten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>32012</accID>
+				<accDesc>Voorraad staal</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.02</leadCode>
+				<leadDescription>Grondstoffen en halffabrikaten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>32013</accID>
+				<accDesc>Voorraad verpakking</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.02</leadCode>
+				<leadDescription>Grondstoffen en halffabrikaten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>32014</accID>
+				<accDesc>Voorraad afvalstoffen</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.01</leadCode>
+				<leadDescription>Handelsgoederen en gereed product</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>32015</accID>
+				<accDesc>Voorraad retouremballage</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>32020</accID>
+				<accDesc>Prijsverschillen bij inkoop</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>32510</accID>
+				<accDesc>Voorraad halffabrikaten</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.02</leadCode>
+				<leadDescription>Grondstoffen en halffabrikaten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>330000</accID>
+				<accDesc>Finished goods</accDesc>
+				<accTp>B</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>37010</accID>
+				<accDesc>Goederen in bewerking</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.03</leadCode>
+				<leadDescription>Onderhanden werken</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>37040</accID>
+				<accDesc>Voorraad ongekeurd product</accDesc>
+				<accTp>B</accTp>
+				<leadCode>01.02.03</leadCode>
+				<leadDescription>Onderhanden werken</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>4000</accID>
+				<accDesc>Bruto loon</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>40003</accID>
+				<accDesc>Directe lonen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.01</leadCode>
+				<leadDescription>Lonen en salarissen</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>40089</accID>
+				<accDesc>Indirecte lonen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.01</leadCode>
+				<leadDescription>Lonen en salarissen</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>4010</accID>
+				<accDesc>Bijzondere beloningen</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>4021</accID>
+				<accDesc>Kosten nettovergoedingen</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>4041</accID>
+				<accDesc>Kosten sociale premies werkgever</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>4042</accID>
+				<accDesc>Kosten overige werkgeverpremies</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>40482</accID>
+				<accDesc>Correctie BTW aangifte</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>4050</accID>
+				<accDesc>Opbrengsten afdrachtverminderingen</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>4051</accID>
+				<accDesc>Kosten spaarloon</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>4080</accID>
+				<accDesc>Kosten vakantiegeld</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>4081</accID>
+				<accDesc>Kosten werkgeverslasten vakantiegeld</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>43012</accID>
+				<accDesc>Energiekosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>43103</accID>
+				<accDesc>Telefoonkosten en internet</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>43112</accID>
+				<accDesc>Assurantiekosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>43189</accID>
+				<accDesc>Overige kosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>43403</accID>
+				<accDesc>Administratiekosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>43505</accID>
+				<accDesc>Valutaverschillen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>43506</accID>
+				<accDesc>Boekingsverschillen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>43507</accID>
+				<accDesc>Betalingsverschillen inkoop</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>43508</accID>
+				<accDesc>Betalingsverschillen verkoop</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>44005</accID>
+				<accDesc>Kosten gereedschappen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>44020</accID>
+				<accDesc>Onderhoudskosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>44189</accID>
+				<accDesc>Autokosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>45013</accID>
+				<accDesc>Directe verkoopkosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>46012</accID>
+				<accDesc>Afschrijvingskosten gebouwen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.04</leadCode>
+				<leadDescription>Afschrijvingen op immateriële en materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>46015</accID>
+				<accDesc>Afschrijvingskosten machines</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.04</leadCode>
+				<leadDescription>Afschrijvingen op immateriële en materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>46016</accID>
+				<accDesc>Afschrijvingskosten inventaris</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.04</leadCode>
+				<leadDescription>Afschrijvingen op immateriële en materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>46017</accID>
+				<accDesc>Afschrijvingskosten transportmiddelen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.04</leadCode>
+				<leadDescription>Afschrijvingen op immateriële en materiële vaste activa</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>46130</accID>
+				<accDesc>Negatieve herwaarderingen activa</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.05</leadCode>
+				<leadDescription>Overige waardeveranderingen van IVA en MVA</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>46228</accID>
+				<accDesc>Opbrengst verkopen activa</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.03</leadCode>
+				<leadDescription>Overige bedrijfsopbrengsten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>46230</accID>
+				<accDesc>Resultaat op activa</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.03</leadCode>
+				<leadDescription>Overige bedrijfsopbrengsten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>49999</accID>
+				<accDesc>Overboekingsrekening</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.02.07</leadCode>
+				<leadDescription>Overige bedrijfskosten</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>60001</accID>
+				<accDesc>Standaardkosten arbeid</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>60002</accID>
+				<accDesc>Standaardkosten algemene last</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>60003</accID>
+				<accDesc>Standaardkosten machinelast</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>60004</accID>
+				<accDesc>Standaardkosten arbeidslast</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>60005</accID>
+				<accDesc>Standaardkosten uitbesteed werk</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>60006</accID>
+				<accDesc>Standaardkosten gereedschappen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>601000</accID>
+				<accDesc>Purchases of consumables</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>604000</accID>
+				<accDesc>Purchases of goods for resale</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>609100</accID>
+				<accDesc>Stock change : furniture's</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>609400</accID>
+				<accDesc>Stock change : resalable goods</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>69010</accID>
+				<accDesc>Efficiencyresultaat op directe grondstofkosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>69020</accID>
+				<accDesc>Efficiencyresultaat op indirecte fabricagekosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>69030</accID>
+				<accDesc>Efficiencyresultaat op directe loonkosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>69040</accID>
+				<accDesc>Resultaat op assemblageorders</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>69050</accID>
+				<accDesc>Resultaat op werkorders</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>69060</accID>
+				<accDesc>Calculatieverschillen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>69110</accID>
+				<accDesc>Prijsverschil op directe loonkosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>69210</accID>
+				<accDesc>Resultaat op indirecte kosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>700000</accID>
+				<accDesc>Sales &amp; Provided services</accDesc>
+				<accTp>P</accTp>
+				<leadCode />
+				<leadDescription />
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>70005</accID>
+				<accDesc>Directe inkoopkosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>71001</accID>
+				<accDesc>Indirect verbruik grondstoffen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>71101</accID>
+				<accDesc>Kostprijs verkopen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>71102</accID>
+				<accDesc>Kostprijs verkopen emballage</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>79010</accID>
+				<accDesc>Kortingen bij inkoop</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>79040</accID>
+				<accDesc>Voorraadverschillen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>79045</accID>
+				<accDesc>Voorraadherwaardering</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.02</leadCode>
+				<leadDescription>Kostprijs omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>81001</accID>
+				<accDesc>Opbrengst verkopen producten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.01</leadCode>
+				<leadDescription>Netto-omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>89001</accID>
+				<accDesc>Rabatten en kortingen</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.01.01</leadCode>
+				<leadDescription>Netto-omzet</leadDescription>
+			</ledgerAccount>
+			<ledgerAccount>
+				<accID>95505</accID>
+				<accDesc>Interestkosten</accDesc>
+				<accTp>P</accTp>
+				<leadCode>02.03.04</leadCode>
+				<leadDescription>Rentelasten en soortgelijke kosten</leadDescription>
+			</ledgerAccount>
+			<basics>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>A001</basicID>
+					<basicDesc>Servicecontracten machines</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>A002</basicID>
+					<basicDesc>Abonnementen</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>D5100</basicID>
+					<basicDesc>Dekking - Afd. ontwerp</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>D5110</basicID>
+					<basicDesc>Dekking - Afd. magazijn</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>D5120</basicID>
+					<basicDesc>Dekking - Afd. algemene zaken</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>D5150</basicID>
+					<basicDesc>Dekking - Afd. fabricage</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>D5160</basicID>
+					<basicDesc>Dekking - Afd. verkoop</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>K4000</basicID>
+					<basicDesc>Verdeling - Grondstoffen</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>K4100</basicID>
+					<basicDesc>Verdeling - Lonen</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>K4200</basicID>
+					<basicDesc>Verdeling - Interest</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>K4300</basicID>
+					<basicDesc>Verdeling - Afschrijvingen</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>K4400</basicID>
+					<basicDesc>Verdeling - Operationeel</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>K4500</basicID>
+					<basicDesc>Verdeling - Onderhoud</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>K4600</basicID>
+					<basicDesc>Verdeling - Administratief</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>K4700</basicID>
+					<basicDesc>Verdeling - Energie en telecom</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>K4800</basicID>
+					<basicDesc>Verdeling - Kosten inkoop verkoop</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>K4900</basicID>
+					<basicDesc>Verdeling - Overige kosten</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M1000</basicID>
+					<basicDesc>Productie - Hout</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M1100</basicID>
+					<basicDesc>Zagen</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M1200</basicID>
+					<basicDesc>Boren</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M1300</basicID>
+					<basicDesc>Hout CNC</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M2000</basicID>
+					<basicDesc>Productie - Assemblage</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M3000</basicID>
+					<basicDesc>Productie - Machines</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M3100</basicID>
+					<basicDesc>Laser cutting</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M3200</basicID>
+					<basicDesc>Zagen + Boren</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M3300</basicID>
+					<basicDesc>Frezen + Zetten</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M4000</basicID>
+					<basicDesc>Productie - Verpakking</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M5000</basicID>
+					<basicDesc>Productie - Food</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M5100</basicID>
+					<basicDesc>Vullen</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M5200</basicID>
+					<basicDesc>Malen + Wassen</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M5300</basicID>
+					<basicDesc>Pellen</basicDesc>
+				</basic>
+				<basic>
+					<basicType>02</basicType>
+					<basicID>M5400</basicID>
+					<basicDesc>Mixen + Rooster</basicDesc>
+				</basic>
+				<basic>
+					<basicType>03</basicType>
+					<basicID>1</basicID>
+					<basicDesc>Afdeling verkoop</basicDesc>
+				</basic>
+				<basic>
+					<basicType>03</basicType>
+					<basicID>2</basicID>
+					<basicDesc>Afdeling marketing</basicDesc>
+				</basic>
+				<basic>
+					<basicType>03</basicType>
+					<basicID>3</basicID>
+					<basicDesc>Afdeling customer service</basicDesc>
+				</basic>
+				<basic>
+					<basicType>30</basicType>
+					<basicID>0afe4194feb24e59846545af007f42c3</basicID>
+					<basicDesc>USER 1</basicDesc>
+				</basic>
+			</basics>
+		</generalLedger>
+		<vatCodes>
+			<vatCode>
+				<vatID>00</vatID>
+				<vatDesc>Geen BTW</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>01</vatID>
+				<vatDesc>Reversal of impairment of non-current debt securities, other</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>02</vatID>
+				<vatDesc>Reversal of impairment of non-current loans</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>03</vatID>
+				<vatDesc>Reversal of impairment of non-current loans, group companies</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>04</vatID>
+				<vatDesc>Reversal of impairment of non-current loans, associates</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>05</vatID>
+				<vatDesc>Reversal of impairment of non-current loans, other related p</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>06</vatID>
+				<vatDesc>Reversal of impairment of non-current loans, other companies</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>07</vatID>
+				<vatDesc>Reversal of impairment impairment of current investments, as</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>08</vatID>
+				<vatDesc>Reversal of impairment of current debt security, group compa</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>09</vatID>
+				<vatDesc>Reversal of impairment of current debt security, associates</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>10</vatID>
+				<vatDesc>Losses on available-for-sale financial assets</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>11</vatID>
+				<vatDesc>BTW prive gebruik</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>12</vatID>
+				<vatDesc>BTW overige tarieven</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+			<vatCode>
+				<vatID>20</vatID>
+				<vatDesc>EXPENSES ARISING ON HEDGING TRANSACTIONS</vatDesc>
+				<vatToPayAccID>18200</vatToPayAccID>
+				<vatToClaimAccID>12511</vatToClaimAccID>
+			</vatCode>
+		</vatCodes>
+		<periods>
+			<period>
+				<periodNumber>1</periodNumber>
+				<startDatePeriod>2015-01-01</startDatePeriod>
+				<endDatePeriod>2015-01-31</endDatePeriod>
+			</period>
+			<period>
+				<periodNumber>2</periodNumber>
+				<startDatePeriod>2015-02-01</startDatePeriod>
+				<endDatePeriod>2015-02-28</endDatePeriod>
+			</period>
+			<period>
+				<periodNumber>3</periodNumber>
+				<startDatePeriod>2015-03-01</startDatePeriod>
+				<endDatePeriod>2015-03-31</endDatePeriod>
+			</period>
+			<period>
+				<periodNumber>4</periodNumber>
+				<startDatePeriod>2015-04-01</startDatePeriod>
+				<endDatePeriod>2015-04-30</endDatePeriod>
+			</period>
+			<period>
+				<periodNumber>5</periodNumber>
+				<startDatePeriod>2015-05-01</startDatePeriod>
+				<endDatePeriod>2015-05-31</endDatePeriod>
+			</period>
+			<period>
+				<periodNumber>6</periodNumber>
+				<startDatePeriod>2015-06-01</startDatePeriod>
+				<endDatePeriod>2015-06-30</endDatePeriod>
+			</period>
+			<period>
+				<periodNumber>7</periodNumber>
+				<startDatePeriod>2015-07-01</startDatePeriod>
+				<endDatePeriod>2015-07-31</endDatePeriod>
+			</period>
+			<period>
+				<periodNumber>8</periodNumber>
+				<startDatePeriod>2015-08-01</startDatePeriod>
+				<endDatePeriod>2015-08-31</endDatePeriod>
+			</period>
+			<period>
+				<periodNumber>9</periodNumber>
+				<startDatePeriod>2015-09-01</startDatePeriod>
+				<endDatePeriod>2015-09-30</endDatePeriod>
+			</period>
+			<period>
+				<periodNumber>10</periodNumber>
+				<startDatePeriod>2015-10-01</startDatePeriod>
+				<endDatePeriod>2015-10-31</endDatePeriod>
+			</period>
+			<period>
+				<periodNumber>11</periodNumber>
+				<startDatePeriod>2015-11-01</startDatePeriod>
+				<endDatePeriod>2015-11-30</endDatePeriod>
+			</period>
+			<period>
+				<periodNumber>12</periodNumber>
+				<startDatePeriod>2015-12-01</startDatePeriod>
+				<endDatePeriod>2015-12-31</endDatePeriod>
+			</period>
+		</periods>
+		<openingBalance>
+			<opBalDate>2015-01-01</opBalDate>
+			<linesCount>0</linesCount>
+			<totalDebit>0.00</totalDebit>
+			<totalCredit>0.00</totalCredit>
+			<obSubledgers>
+				<obSubledger>
+					<sbType>CU</sbType>
+					<sbDesc>A/R</sbDesc>
+					<linesCount>0</linesCount>
+					<totalDebit>0.00</totalDebit>
+					<totalCredit>0.00</totalCredit>
+				</obSubledger>
+				<obSubledger>
+					<sbType>SU</sbType>
+					<sbDesc>A/P</sbDesc>
+					<linesCount>0</linesCount>
+					<totalDebit>0.00</totalDebit>
+					<totalCredit>0.00</totalCredit>
+				</obSubledger>
+			</obSubledgers>
+		</openingBalance>
+		<transactions>
+			<linesCount>16</linesCount>
+			<totalDebit>894472.00</totalDebit>
+			<totalCredit>894472.00</totalCredit>
+			<journal>
+				<jrnID>300</jrnID>
+				<desc>Inkoopboek</desc>
+				<jrnTp>P</jrnTp>
+				<offsetAccID>16010</offsetAccID>
+				<transaction>
+					<nr>15300001</nr>
+					<desc>Factuur: 16300011</desc>
+					<periodNumber>1</periodNumber>
+					<trDt>2015-01-01</trDt>
+					<sourceID>Import</sourceID>
+					<userID>0afe4194feb24e59846545af007f42c3</userID>
+					<trLine>
+						<nr>0:1</nr>
+						<accID>16010</accID>
+						<docRef>16300011</docRef>
+						<effDate>2015-01-01</effDate>
+						<desc>Factuur: 16300011</desc>
+						<amnt>861760.00</amnt>
+						<amntTp>C</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+					</trLine>
+					<trLine>
+						<nr>1:1</nr>
+						<accID>01410</accID>
+						<docRef>16300011</docRef>
+						<effDate>2015-01-01</effDate>
+						<desc>voedsel mixer</desc>
+						<amnt>20400.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+					</trLine>
+					<trLine>
+						<nr>2:1</nr>
+						<accID>01410</accID>
+						<docRef>16300011</docRef>
+						<effDate>2015-01-01</effDate>
+						<desc>boormachine</desc>
+						<amnt>1800.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+					</trLine>
+					<trLine>
+						<nr>3:1</nr>
+						<accID>01410</accID>
+						<docRef>16300011</docRef>
+						<effDate>2015-01-01</effDate>
+						<desc>bandzaag</desc>
+						<amnt>3960.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+					</trLine>
+					<trLine>
+						<nr>4:1</nr>
+						<accID>01410</accID>
+						<docRef>16300011</docRef>
+						<effDate>2015-01-01</effDate>
+						<desc>voeding vulmachine</desc>
+						<amnt>2160.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+					</trLine>
+					<trLine>
+						<nr>5:1</nr>
+						<accID>01410</accID>
+						<docRef>16300011</docRef>
+						<effDate>2015-01-01</effDate>
+						<desc>voeding maalmachine</desc>
+						<amnt>5040.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+					</trLine>
+					<trLine>
+						<nr>6:1</nr>
+						<accID>01410</accID>
+						<docRef>16300011</docRef>
+						<effDate>2015-01-01</effDate>
+						<desc>voeding wasmachine</desc>
+						<amnt>5760.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+					</trLine>
+					<trLine>
+						<nr>7:1</nr>
+						<accID>01410</accID>
+						<docRef>16300011</docRef>
+						<effDate>2015-01-01</effDate>
+						<desc>voeding pindapeller</desc>
+						<amnt>10440.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+					</trLine>
+					<trLine>
+						<nr>8:1</nr>
+						<accID>01410</accID>
+						<docRef>16300011</docRef>
+						<effDate>2015-01-01</effDate>
+						<desc>metalen verticale boor</desc>
+						<amnt>5400.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+					</trLine>
+					<trLine>
+						<nr>9:1</nr>
+						<accID>01410</accID>
+						<docRef>16300011</docRef>
+						<effDate>2015-01-01</effDate>
+						<desc>voeding roostermachine</desc>
+						<amnt>10800.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+					</trLine>
+					<trLine>
+						<nr>10:1</nr>
+						<accID>01110</accID>
+						<docRef>16300011</docRef>
+						<effDate>2015-01-01</effDate>
+						<desc>Pand Delft</desc>
+						<amnt>796000.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+					</trLine>
+				</transaction>
+				<transaction>
+					<nr>15300002</nr>
+					<desc>Boekstuknummer: 16300011</desc>
+					<periodNumber>12</periodNumber>
+					<trDt>2015-12-12</trDt>
+					<sourceID>Import</sourceID>
+					<userID>0afe4194feb24e59846545af007f42c3</userID>
+					<trLine>
+						<nr>0:1</nr>
+						<accID>16010</accID>
+						<docRef>15300002</docRef>
+						<effDate>2015-12-12</effDate>
+						<desc>Boekstuknummer: 16300011</desc>
+						<amnt>32712.00</amnt>
+						<amntTp>C</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300002</invRef>
+					</trLine>
+					<trLine>
+						<nr>1:1</nr>
+						<accID>01510</accID>
+						<docRef>15300002</docRef>
+						<effDate>2015-12-12</effDate>
+						<desc>del laptop</desc>
+						<amnt>1872.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300002</invRef>
+					</trLine>
+					<trLine>
+						<nr>2:1</nr>
+						<accID>01510</accID>
+						<docRef>15300002</docRef>
+						<effDate>2015-12-12</effDate>
+						<desc>cisco</desc>
+						<amnt>4260.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300002</invRef>
+					</trLine>
+					<trLine>
+						<nr>3:1</nr>
+						<accID>01510</accID>
+						<docRef>15300002</docRef>
+						<effDate>2015-12-12</effDate>
+						<desc>server</desc>
+						<amnt>3780.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300002</invRef>
+					</trLine>
+					<trLine>
+						<nr>4:1</nr>
+						<accID>01610</accID>
+						<docRef>15300002</docRef>
+						<effDate>2015-12-12</effDate>
+						<desc>transporter</desc>
+						<amnt>22800.00</amnt>
+						<amntTp>D</amntTp>
+						<custSupID>0076</custSupID>
+						<invRef>15300002</invRef>
+					</trLine>
+				</transaction>
+			</journal>
+			<journal>
+				<jrnID>400</jrnID>
+				<desc>Verkoopboek</desc>
+				<jrnTp>S</jrnTp>
+				<offsetAccID>12010</offsetAccID>
+			</journal>
+			<journal>
+				<jrnID>900</jrnID>
+				<desc>Memoriaal</desc>
+				<jrnTp>M</jrnTp>
+			</journal>
+			<journal>
+				<jrnID>910</jrnID>
+				<desc>Afschrijvingen</desc>
+				<jrnTp>M</jrnTp>
+			</journal>
+			<journal>
+				<jrnID>920</jrnID>
+				<desc>Memoriaal uitgestelde kosten en opbrengsten</desc>
+				<jrnTp>M</jrnTp>
+			</journal>
+			<journal>
+				<jrnID>930</jrnID>
+				<desc>Memoriaal afletteren</desc>
+				<jrnTp>M</jrnTp>
+			</journal>
+			<journal>
+				<jrnID>990</jrnID>
+				<desc>Memoriaal beginbalans</desc>
+				<jrnTp>M</jrnTp>
+			</journal>
+			<journal>
+				<jrnID>200</jrnID>
+				<desc>ABN AMRO Rekening Courant</desc>
+				<jrnTp>B</jrnTp>
+				<offsetAccID>10210</offsetAccID>
+				<bankAccNr>0484987321</bankAccNr>
+			</journal>
+			<journal>
+				<jrnID>100</jrnID>
+				<desc>Kas fabriek Delft</desc>
+				<jrnTp>C</jrnTp>
+				<offsetAccID>10010</offsetAccID>
+			</journal>
+			<subledgers>
+				<subledger>
+					<sbType>CU</sbType>
+					<sbDesc>A/R</sbDesc>
+					<linesCount>0</linesCount>
+					<totalDebit>0.00</totalDebit>
+					<totalCredit>0.00</totalCredit>
+				</subledger>
+				<subledger>
+					<sbType>SU</sbType>
+					<sbDesc>A/P</sbDesc>
+					<linesCount>2</linesCount>
+					<totalDebit>0.00</totalDebit>
+					<totalCredit>894472.00</totalCredit>
+					<sbLine>
+						<nr>1</nr>
+						<jrnID>300</jrnID>
+						<trNr>15300001</trNr>
+						<trLineNr>0:1</trLineNr>
+						<desc>Factuur: 16300011</desc>
+						<amnt>861760.00</amnt>
+						<amntTp>C</amntTp>
+						<docRef>15300001</docRef>
+						<custSupID>0076</custSupID>
+						<invRef>15300001</invRef>
+						<invPurSalTp>P</invPurSalTp>
+						<invTp>D</invTp>
+						<invDt>2015-01-01</invDt>
+						<invDueDt>2015-01-31</invDueDt>
+						<mutTp>I</mutTp>
+					</sbLine>
+					<sbLine>
+						<nr>2</nr>
+						<jrnID>300</jrnID>
+						<trNr>15300002</trNr>
+						<trLineNr>0:1</trLineNr>
+						<desc>Boekstuknummer: 16300011</desc>
+						<amnt>32712.00</amnt>
+						<amntTp>C</amntTp>
+						<docRef>15300002</docRef>
+						<custSupID>0076</custSupID>
+						<invRef>15300002</invRef>
+						<invPurSalTp>P</invPurSalTp>
+						<invTp>D</invTp>
+						<invDt>2015-12-12</invDt>
+						<invDueDt>2016-01-11</invDueDt>
+						<mutTp>I</mutTp>
+					</sbLine>
+				</subledger>
+			</subledgers>
+		</transactions>
+	</company>
+</auditfile>
