@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           targetNamespace="http://www.auditfiles.nl/XAF/3.2" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="auditfile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fiscalYear" type="xs:unsignedShort" />
+              <xs:element name="startDate" type="xs:date" />
+              <xs:element name="endDate" type="xs:date" />
+              <xs:element name="curCode" type="xs:string" />
+              <xs:element name="dateCreated" type="xs:date" />
+              <xs:element name="softwareDesc" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="company">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="companyIdent" type="xs:unsignedByte" />
+              <xs:element name="cid" type="xs:string" />
+              <xs:element name="companyName" type="xs:string" />
+              <xs:element name="taxRegistrationCountry" type="xs:string" />
+              <xs:element name="taxRegIdent" />
+              <xs:element name="streetAddress">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="country" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="postalAddress">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="country" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="customersSuppliers">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="customerSupplier">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:choice maxOccurs="unbounded">
+                            <xs:element name="custSupID" type="xs:unsignedShort" />
+                            <xs:element name="custSuperID" type="xs:unsignedShort" />
+                            <xs:element name="custSupName" type="xs:string" />
+                            <xs:element name="contact" type="xs:string" />
+                            <xs:element name="telephone" type="xs:string" />
+                            <xs:element name="website" type="xs:string" />
+                            <xs:element name="commerceNr" type="xs:unsignedInt" />
+                            <xs:element name="eMail" type="xs:string" />
+                            <xs:element name="taxRegistrationCountry" type="xs:string" />
+                            <xs:element name="custSupTp" type="xs:string" />
+                            <xs:element name="streetAddress">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element minOccurs="0" name="streetname" type="xs:string" />
+                                  <xs:element minOccurs="0" name="city" type="xs:string" />
+                                  <xs:element minOccurs="0" name="postalCode" type="xs:string" />
+                                  <xs:element name="country" type="xs:string" />
+                                </xs:sequence>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element name="bankAccount">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element name="bankAccNr" type="xs:unsignedInt" />
+                                  <xs:element minOccurs="0" name="bankIdCd" type="xs:string" />
+                                </xs:sequence>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:choice>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="generalLedger">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="ledgerAccount">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="accID" type="xs:unsignedInt" />
+                          <xs:element name="accDesc" type="xs:string" />
+                          <xs:element name="accTp" type="xs:string" />
+                          <xs:element name="leadCode" type="xs:string" />
+                          <xs:element name="leadDescription" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="basics">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="basic">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="basicType" type="xs:unsignedByte" />
+                                <xs:element name="basicID" type="xs:string" />
+                                <xs:element name="basicDesc" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="vatCodes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="vatCode">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="vatID" type="xs:unsignedByte" />
+                          <xs:element name="vatDesc" type="xs:string" />
+                          <xs:element name="vatToPayAccID" type="xs:unsignedShort" />
+                          <xs:element name="vatToClaimAccID" type="xs:unsignedShort" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="periods">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="period">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="periodNumber" type="xs:unsignedByte" />
+                          <xs:element name="startDatePeriod" type="xs:date" />
+                          <xs:element name="endDatePeriod" type="xs:date" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="openingBalance">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="opBalDate" type="xs:date" />
+                    <xs:element name="linesCount" type="xs:unsignedByte" />
+                    <xs:element name="totalDebit" type="xs:decimal" />
+                    <xs:element name="totalCredit" type="xs:decimal" />
+                    <xs:element name="obSubledgers">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="obSubledger">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="sbType" type="xs:string" />
+                                <xs:element name="sbDesc" type="xs:string" />
+                                <xs:element name="linesCount" type="xs:unsignedByte" />
+                                <xs:element name="totalDebit" type="xs:decimal" />
+                                <xs:element name="totalCredit" type="xs:decimal" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="transactions">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="linesCount" type="xs:unsignedByte" />
+                    <xs:element name="totalDebit" type="xs:decimal" />
+                    <xs:element name="totalCredit" type="xs:decimal" />
+                    <xs:element maxOccurs="unbounded" name="journal">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="jrnID" type="xs:unsignedShort" />
+                          <xs:element name="desc" type="xs:string" />
+                          <xs:element name="jrnTp" type="xs:string" />
+                          <xs:element minOccurs="0" name="offsetAccID" type="xs:unsignedShort" />
+                          <xs:element minOccurs="0" name="bankAccNr" type="xs:unsignedInt" />
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="transaction">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="nr" type="xs:unsignedInt" />
+                                <xs:element name="desc" type="xs:string" />
+                                <xs:element name="periodNumber" type="xs:unsignedByte" />
+                                <xs:element name="trDt" type="xs:date" />
+                                <xs:element name="sourceID" type="xs:string" />
+                                <xs:element name="userID" type="xs:string" />
+                                <xs:element maxOccurs="unbounded" name="trLine">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="nr" type="xs:string" />
+                                      <xs:element name="accID" type="xs:unsignedShort" />
+                                      <xs:element name="docRef" type="xs:unsignedInt" />
+                                      <xs:element name="effDate" type="xs:date" />
+                                      <xs:element name="desc" type="xs:string" />
+                                      <xs:element name="amnt" type="xs:decimal" />
+                                      <xs:element name="amntTp" type="xs:string" />
+                                      <xs:element name="custSupID" type="xs:unsignedByte" />
+                                      <xs:element name="invRef" type="xs:unsignedInt" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="subledgers">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="subledger">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="sbType" type="xs:string" />
+                                <xs:element name="sbDesc" type="xs:string" />
+                                <xs:element name="linesCount" type="xs:unsignedByte" />
+                                <xs:element name="totalDebit" type="xs:decimal" />
+                                <xs:element name="totalCredit" type="xs:decimal" />
+                                <xs:element minOccurs="0" maxOccurs="unbounded" name="sbLine">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="nr" type="xs:unsignedByte" />
+                                      <xs:element name="jrnID" type="xs:unsignedShort" />
+                                      <xs:element name="trNr" type="xs:unsignedInt" />
+                                      <xs:element name="trLineNr" type="xs:string" />
+                                      <xs:element name="desc" type="xs:string" />
+                                      <xs:element name="amnt" type="xs:decimal" />
+                                      <xs:element name="amntTp" type="xs:string" />
+                                      <xs:element name="docRef" type="xs:unsignedInt" />
+                                      <xs:element name="custSupID" type="xs:unsignedByte" />
+                                      <xs:element name="invRef" type="xs:unsignedInt" />
+                                      <xs:element name="invPurSalTp" type="xs:string" />
+                                      <xs:element name="invTp" type="xs:string" />
+                                      <xs:element name="invDt" type="xs:date" />
+                                      <xs:element name="invDueDt" type="xs:date" />
+                                      <xs:element name="mutTp" type="xs:string" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -6,4 +6,4 @@
 //
 
 @javax.xml.bind.annotation.XmlSchema(namespace = "http://www.auditfiles.nl/XAF/3.2", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
-package com.example.camelone.schema;
+package com.example.camelone.schemas.exact;

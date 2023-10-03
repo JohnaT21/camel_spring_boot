@@ -81,30 +81,30 @@
 				<artifactId>maven-jaxb2-plugin</artifactId>
 				<version>0.15.3</version>
 				<executions>
-					<!--					<execution>-->
-					<!--						<id>esb</id>-->
+										<execution>
+											<id>esb</id>
 
-					<!--						<goals>-->
-					<!--							<goal>generate</goal>-->
-					<!--						</goals>-->
+											<goals>
+												<goal>generate</goal>
+											</goals>
 
-					<!--						<configuration>-->
-					<!--							<schemaDirectory>src/main/resources/xsd</schemaDirectory>-->
-					<!--							<schemaIncludes>esb.xsd</schemaIncludes>-->
-					<!--							<cleanPackageDirectories>false</cleanPackageDirectories>-->
-					<!--							<generatePackage>com.example.camelone.schemas.esb</generatePackage>-->
-					<!--							<generateDirectory>${project.basedir}/src/main/java</generateDirectory>-->
-					<!--							<readOnly>false</readOnly>-->
-					<!--							<extension>true</extension>-->
-					<!--							<strict>true</strict>-->
-					<!--							<writeCode>true</writeCode>-->
-					<!--							<verbose>true</verbose>-->
+											<configuration>
+												<schemaDirectory>src/main/resources/xsd</schemaDirectory>
+												<schemaIncludes>esb.xsd</schemaIncludes>
+												<cleanPackageDirectories>false</cleanPackageDirectories>
+												<generatePackage>com.example.camelone.schemas.esb</generatePackage>
+												<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
+												<readOnly>false</readOnly>
+												<extension>true</extension>
+												<strict>true</strict>
+												<writeCode>true</writeCode>
+												<verbose>true</verbose>
 
-					<!--							<forceRegenerate>true</forceRegenerate>-->
-					<!--							<removeOldOutput>true</removeOldOutput>-->
-					<!--						</configuration>-->
+												<forceRegenerate>false</forceRegenerate>
+												<removeOldOutput>false</removeOldOutput>
+											</configuration>
 
-					<!--					</execution>-->
+										</execution>
 					<execution>
 						<id>twinfield</id>
 
@@ -129,52 +129,29 @@
 						</configuration>
 
 					</execution>
-					<!--					<execution>-->
-					<!--						<id>exact</id>-->
-					<!--						<goals>-->
-					<!--							<goal>generate</goal>-->
-					<!--						</goals>-->
+										<execution>
+											<id>exact</id>
+											<goals>
+												<goal>generate</goal>
+											</goals>
 
-					<!--						<configuration>-->
-					<!--							<schemaDirectory>src/main/resources/xml</schemaDirectory>-->
-					<!--							<schemaIncludes>exact.xsd</schemaIncludes>-->
-					<!--							<cleanPackageDirectories>false</cleanPackageDirectories>-->
-					<!--							<generatePackage>com.example.camelone.schemas.exact</generatePackage>-->
-					<!--							<generateDirectory>${project.basedir}/src/main/java</generateDirectory>-->
-					<!--							<readOnly>false</readOnly>-->
-					<!--							<extension>true</extension>-->
-					<!--							<strict>true</strict>-->
-					<!--							<writeCode>true</writeCode>-->
-					<!--							<verbose>true</verbose>-->
+											<configuration>
+												<schemaDirectory>src/main/resources/xsd</schemaDirectory>
+												<schemaIncludes>exact.xsd</schemaIncludes>
+												<cleanPackageDirectories>false</cleanPackageDirectories>
+												<generatePackage>com.example.camelone.schemas.exact</generatePackage>
+												<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
+												<readOnly>false</readOnly>
+												<extension>true</extension>
+												<strict>true</strict>
+												<writeCode>true</writeCode>
+												<verbose>true</verbose>
 
-					<!--							<forceRegenerate>true</forceRegenerate>-->
-					<!--							<removeOldOutput>true</removeOldOutput>-->
-					<!--						</configuration>-->
+												<forceRegenerate>false</forceRegenerate>
+												<removeOldOutput>false</removeOldOutput>
+											</configuration>
 
-					<!--					</execution>-->
-					<!--					<execution>-->
-					<!--						<id>person</id>-->
-					<!--						<goals>-->
-					<!--							<goal>generate</goal>-->
-					<!--						</goals>-->
-
-					<!--						<configuration>-->
-					<!--							<schemaDirectory>src/main/resources/xsd</schemaDirectory>-->
-					<!--							<schemaIncludes>person.xsd</schemaIncludes>-->
-					<!--							<cleanPackageDirectories>false</cleanPackageDirectories>-->
-					<!--							<generatePackage>com.example.camelone.schemas.person</generatePackage>-->
-					<!--							<generateDirectory>${project.basedir}/src/main/java</generateDirectory>-->
-					<!--							<readOnly>false</readOnly>-->
-					<!--							<extension>true</extension>-->
-					<!--							<strict>true</strict>-->
-					<!--							<writeCode>true</writeCode>-->
-					<!--							<verbose>true</verbose>-->
-
-					<!--							<forceRegenerate>true</forceRegenerate>-->
-					<!--							<removeOldOutput>true</removeOldOutput>-->
-					<!--						</configuration>-->
-
-					<!--					</execution>-->
+										</execution>
 				</executions>
 			</plugin>
 
